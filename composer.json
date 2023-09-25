@@ -4,8 +4,14 @@
   "description": "GTFS-Realtime library for PHP",
   "keywords": ["gtfs-realtime"],
   "license": "Unlicense",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/maciek-szn/protobuf-php"
+    }
+  ],
   "require": {
-    "google/protobuf": "^3.10.0"
+    "maciek-szn/protobuf": "^3.10.0"
   },
   "autoload": {
     "psr-4": {
