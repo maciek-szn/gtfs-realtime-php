@@ -2,10 +2,6 @@
 
 Simple wrapper for GTFS-Realtime in PHP based on Google's [Protocol Buffers](https://github.com/protocolbuffers/protobuf-php).
 
-## Usage
-The library is kept simple to use for creating and parsing GTFS-Realtime feeds in PHP applications. See
-the simple examples for [creating](/examples/create_message.php) and [parsing](/examples/parse_message.php) a feed message.
-
 ### Composer Installation
 In your application project root run
 ```
