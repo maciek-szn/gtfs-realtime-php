@@ -65,7 +65,7 @@ class LocalizedImage extends \Google\Protobuf\Internal\Message
      * }
      */
     public function __construct($data = NULL) {
-        \GPBMetadata\GtfsRealtime::initOnce();
+        \GPBMetadata\Google\Transit\Realtime\GtfsRealtime::initOnce();
         parent::__construct($data);
     }
 

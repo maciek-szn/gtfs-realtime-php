@@ -16,7 +16,7 @@
   "autoload": {
     "psr-4": {
       "Google\\Transit\\Realtime\\": "src/Google/Transit/Realtime",
-      "GPBMetadata\\": "src/GPBMetadata"
+      "GPBMetadata\\Google\\Transit\\Realtime\\": "src/GPBMetadata/Google/Transit/Realtime"
     }
   }
 }
